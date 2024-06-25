@@ -691,7 +691,7 @@ form button:hover {
 
 
 /* BREAKPOINTS */
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
     html {
         font-size: 55%;
     }
@@ -710,7 +710,7 @@ form button:hover {
     }
 }
 
-@media(max-width: 1100px) {
+@media(max-width: 850px) {
     :root {
         --big-font: 4rem;
         --h2-font: 2.5rem;
@@ -727,7 +727,7 @@ form button:hover {
     }
 }
 
-@media(max-width: 920px) {
+@media(max-width: 800px) {
     .about {
         grid-template-columns: 1fr;
     }
@@ -748,7 +748,7 @@ form button:hover {
     }
 }
 
-@media(max-width: 840px) {
+@media(max-width: 780px) {
     #menu-icon {
         display: block;
     }
@@ -786,7 +786,7 @@ form button:hover {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
     .header {
         padding: 2rem 3%;
     }
@@ -804,7 +804,7 @@ form button:hover {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 700px) {
 
     .navbar a:nth-child(1),
     .navbar a:nth-child(2) {
@@ -846,7 +846,7 @@ form button:hover {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     #menu-icon {
         display: block;
     }
@@ -1006,7 +1006,7 @@ form button:hover {
     }
 }
 
-@media (max-width: 617px) {
+@media (max-width: 600px) {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
     }
