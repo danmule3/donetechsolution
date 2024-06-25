@@ -350,16 +350,36 @@
         </div>
 
         <form action="#">
+          
           <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email Address">
+            <div class="input-field field">
+              <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+              <div class="error-text">Full Name can't be blank!</div>
+            </div>
+            <div class="input-field field">
+              <input type="text" placeholder="Email Address" id="email" class="item" autocomplete="off">
+              <div class="error-text email">Email Address can't be blank!</div>
+            </div>
           </div>
+
           <div class="input-box">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Email Subject">
+            <div class="input-field field">
+              <input type="number" placeholder="Phone Number" id="phone" class="item" autocomplete="off">
+              <div class="error-text">Phone Number can't be blank!</div>
+            </div>
+            <div class="input-field field">
+              <input type="text" placeholder="Email Subject" id="subject" class="item" autocomplete="off">
+              <div class="error-text">Email Subject can't be blank!</div>
+            </div>
           </div>
-          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-          <input type="submit" value="Send Message" class="btn">
+
+          <div class="textarea-field field">
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
+            <div class="error-text">Your Message can't be blank!</div>
+          </div>
+
+          <button type="submit">Send Message</button>
+
         </form>
       </section>
 
@@ -376,6 +396,9 @@
 
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     
     <!--  swiper js  -->
